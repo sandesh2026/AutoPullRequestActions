@@ -15,5 +15,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH_PREFIX: "update/"
-          PULL_REQUEST_BRANCH: "master"
+          PULL_REQUEST_BRANCH: "dev"
           PULL_REQUEST_DRAFT: "true"
