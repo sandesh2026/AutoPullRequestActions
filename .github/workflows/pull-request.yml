@@ -14,4 +14,5 @@ jobs:
         uses: sandesh2026/ActionsEx@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_PREFIX: "update/"
           PULL_REQUEST_BRANCH: "master"
